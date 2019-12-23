@@ -1,0 +1,6 @@
+# robots.txt
+User-agent: *
+Disallow: 
+Disallow: /bin/
+Disallow: /data/
+Sitemap: https://www.nanshan.tech/sitemap.xml
