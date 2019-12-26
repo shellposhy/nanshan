@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+        <title>南山智慧谷-开发者中心-开发指南</title>
+        <meta name="keywords" content="南山智慧谷|南山政务云|南山新闻云|云平台">
+        <meta name="description" content="南山智慧谷|南山政务云|南山新闻云|云平台">
+        <link href="../../css/base.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico" media="screen">
+        <!--[if lt IE 9]>
+        <script src="../../js/jquery/html5shiv.min.js"></script>
+        <script src="../../js/jquery/respond.min.js"></script>
+        <style>
+            .tr-nav .submenu{left:8px}.tr-comment .username{width:8em}.tr-comment .code{width:4em}.loading{display:none}
+        </style>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!-- Navigator -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://www.nanshan.tech/"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse navbar-right tr-nav">
+                    <form class="navbar-form navbar-right g_search" role="search" name="search_form" action="#" method="get">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="搜索" name="name">
+                        </div>
+                        <button type="submit" class="btn btn-link"> <i class="glyphicon glyphicon-search"></i></button>
+                    </form>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品</a>
+                            <div class="dropdown-menu submenu">
+                                <a href="https://selene.nanshan.tech/">新闻云</a>
+                                <a href="#">政务云</a>
+                            </div>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决方案</a>
+                            <div class="dropdown-menu submenu">
+                                <a href="https://selene.nanshan.tech/">一站式新闻发布</a>
+                                <a href="#">大数据检索服务</a>
+                                <a href="#">多业务政务平台</a>
+                            </div>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">案例</a>
+                            <div class="dropdown-menu submenu">
+                                <a href="#">政府案例</a>
+                                <a href="#">企业案例</a>
+                            </div>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">定价</a>
+                            <div class="dropdown-menu submenu">
+                                <a href="#">新闻云</a>
+                                <a href="#">政务云</a>
+                            </div>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">开发者中心</a>
+                            <div class="dropdown-menu submenu">
+                                <a href="https://api.nanshan.tech/">开发指南</a>
+                                <a href="https://api.nanshan.tech/">API文档</a>
+                                <a href="https://api.nanshan.tech/">SDK下载</a>
+                            </div>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">技术博客</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="javascript:;" class="dropdown-toggle button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                登录
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content -->
+        <div class="tr-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 hidden-xs">
+                        <div class="second_menu affix-top" data-spy="affix" data-offset-top="114" data-offset-bottom="380">
+                            <div class="menu_title">开发者中心</div>
+                            <ul class="subnav">
+                                <li class="active">开发指南
+                                    <ul>
+                                        <li class="active"><a href="index.html">服务端环境部署</a></li>
+                                        <li><a href="template.html">模板开发</a></li>
+                                    </ul>
+                                </li>
+                                <li>API文档
+                                    <ul>
+                                        <li><a href="api-license-apply.html">License申请</a></li>
+                                        <li><a href="api-license-check.html">License校验</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">SDK下载</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="tr-content tr-about about_history" style="border-bottom: 1px solid #E0E0E0;">
+                            <h1>服务器环境部署</h1>
+                        </div>
+                        <h3>JAVA 部署</h3>
+                        <p>要求 JDK 版本 1.7 及以上，从指定服务器地址下载服务需要的<code>jar包</code>和<code>应用服务包</code>，以下提供了服务部署的步骤：</p>
+                        <br>
+                        <h4>1.JDK环境安装</h4>
+                        <p>安装JDK环境，此处略去。</p>
+                        <br>
+                        <h4>2.应用依赖中间件</h4>
+                        <p>服务和应用服务器，依赖<code>Zookeeper</code>、<code>Redis</code>和<code>Tomcat</code>或<code>Weblogic</code></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="tr-footer">
+            <div class="g_menu hidden-xs">
+                <div class="container">
+                    <div class="g_social">
+                        <h2>业务联系</h2>
+                        <div>电话：010-0000 0000</div>
+                        <div>邮箱：bussiness@nanshan.tech</div>
+                        <ul id="gSocial" class="g_social_list">
+                            <li class="dropdown"><span class="g_social1"></span><img src="../../img/qr_code.jpg" width="131" height="135"></li>
+                            <li><a href="#" class="g_social2" target="_blank"></a></li>
+                            <li><a href="#" target="_blank" class="g_social3"></a></li>
+                            <li><a href="#" target="_blank" class="g_social4"></a></li>
+                        </ul>
+                    </div>
+                    <div class="g_f_menu">
+                        <div class="item">
+                            <h2>产品</h2>
+                            <a href="#">新闻云</a>
+                            <a href="#">政务云</a>
+                        </div>
+                        <div class="item">
+                            <h2>解决方案</h2>
+                            <a href="#">一站式新闻发布</a>
+                            <a href="#">大数据检索服务</a>
+                            <a href="#">多业务政务平台</a>
+                        </div>
+                        <div class="item">
+                            <h2>开发者</h2>
+                            <a href="#">开发指南</a>
+                            <a href="#">API文档</a>
+                            <a href="#">SDK下载</a>
+                        </div>
+                        <div class="item">
+                            <h2>帮助中心</h2>
+                            <a href="#">技术论坛</a>
+                            <a href="#">帮助中心</a>
+                            <a href="#">客服中心</a>
+                        </div>
+                        <div class="item">
+                            <h2>公司</h2>
+                            <a href="#">关于我们</a>
+                            <a href="#">条款</a>
+                            <a href="#">合作</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="g_copyright clearfix">
+                <div class="container">
+                    <div class="left">Copyright © 2019-2020 南山智慧谷（北京）科技有限公司 All Righits Reserved.</div>
+                    <div class="right"><a href="http://www.miibeian.gov.cn/" style="color:#9a9a9a;" target="_blank">京ICP备19055730号</a></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Script -->
+        <script type="text/javascript" src="../../js/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="../../js/jquery/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../../js/base.min.js"></script>
+        <script>
+            $(function(){
+                $(window).on('load resize',function(){
+                    if(ismobile()==1) {
+                        $(".index_news_tab_panel").height(Math.round(($("#index_image").height()-92)/ 20) * 20 ).css('overflow','hidden');
+                    }
+                });
+            })
+        </script>
+
+        <!-- Top -->
+        <div class="gototop" style="right: 326.5px;">
+            <i class="glyphicon glyphicon-triangle-top"></i>
+        </div>
+        <img id="hzDownscaled" style="position: absolute; top: -10000px;">
+    </body>
+</html>

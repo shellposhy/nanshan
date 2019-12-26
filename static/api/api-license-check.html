@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11">
+        <title>API 文档 | 南山智慧谷</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico" media="screen">
+        <link href="../../css/api.min.css" rel="stylesheet">
+        <script src="../../js/api.min.js"></script>
+    </head>
+<body>
+    <div id="app">
+        <div class="container unlimiter">
+            <div class="fixed-top fixed-right space-left24">
+                <div class="fill-dark col6 pin-right"></div>
+            </div>
+            <div class="space-top5 scroll-styled overflow-auto pad1 width24 sidebar fixed-left fill-light light" id="menu">
+                <div class="pad0x small">
+                    <details>
+                        <summary>
+                            <dt class="space-top1 nav-section-name">API 文档简介</dt>
+                        </summary>
+                        <dd><a href="api.html" class="sub-nav-item nav-item block">API 文档简介</a></dd>
+                    </details>
+                    <details open="">
+                        <summary>
+                            <dt class="space-top1 nav-section-name">服务授权</dt>
+                        </summary>
+                        <dd><a href="api-license-apply.html" class="sub-nav-item nav-item block">License申请</a>
+                        </dd>
+                        <dd><a href="api-license-check.html" class="sub-nav-item nav-item block nav-item--selected">License校验</a></dd>
+                    </details>
+                </div>
+            </div>
+            <div class="space-left24">
+                <div>
+                    <div class="clearfix">
+                        <div class="section contain clearfix">
+                            <div class="space-bottom8 col6 pad2x prose clip left-content">
+                                <h2>License校验</h2>
+                                <p>
+                                    商户试用期间或购买服务后，因特殊原因造成许可证校验失效时，申请许可<code>license</code>的重新校验 ，license是商户各类业务操作的凭证<code>Token</code>，
+                                    请妥善保管许可信息。
+                                    产品试用地址 <a href="https://selene.nanshan.tech">产品demo</a>。
+                                </p>
+                                <p><strong>如果你需要更多了解产品信息，请拨打公司服务热线。</strong></p>
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th><strong>属性</strong></th>
+                                        <th>描述</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>id <em>string</em></td>
+                                        <td>用户 ID ，64 位以内，首字母必须是英文、数字或者下划线。</td>
+                                    </tr>
+                                    <tr>
+                                        <td>object <em>string</em></td>
+                                        <td>值为 "user"。</td>
+                                    </tr>
+                                    <tr>
+                                        <td>app <em>string</em></td>
+                                        <td>对应 app 对象的 id。</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="space-bottom4 col6 pad2 prose clip fill-dark space-top5 right-content dark">
+                                <h4>示例对象</h4>
+                                <pre class="hljs">
+{
+&nbsp;&nbsp;<span class="hljs-attr">"id"</span>: <span class="hljs-string">"test_user_003"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"object"</span>: <span class="hljs-string">"user"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"app"</span>: <span class="hljs-string">"app_1Gqj58ynP0mHeX1q"</span>
+}
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed-top space-left24">
+                <div class="events fill-blue dark bottom-shadow pad1 col6 pin-topright">
+                    <div class="space-right1 small quiet inline"></div>
+                    <div class="rounded-toggle inline short" id="lang">
+                        <a class="strong active" data="java">Java</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fill-light fixed-top header pad0 width24">
+                <a href="https://www.nanshan.tech/" class="logo">API</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
