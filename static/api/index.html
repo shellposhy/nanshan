@@ -1,75 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=11">
-    <title>API 文档 | 南山智慧谷</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.nanshan.tech/img/favicon.ico" media="screen">
-    <link href="https://www.nanshan.tech/css/api.min.css" rel="stylesheet">
-    <script src="https://www.nanshan.tech/js/api.min.js"></script>
-</head>
-<body>
-<div id="app">
-    <div class="container unlimiter">
-        <div class="fixed-top fixed-right space-left24">
-            <div class="fill-dark col6 pin-right"></div>
-        </div>
-        <div class="space-top5 scroll-styled overflow-auto pad1 width24 sidebar fixed-left fill-light light" id="menu">
-            <div class="pad0x small">
-                <details open="">
-                    <summary>
-                        <dt class="space-top1 nav-section-name">API 文档简介</dt>
-                    </summary>
-                    <dd><a href="https://www.nanshan.tech/static/api/index.html" class="sub-nav-item nav-item block nav-item--selected">API 文档简介</a></dd>
-                </details>
-                <details>
-                    <summary><dt class="space-top1 nav-section-name">服务授权</dt></summary>
-                    <dd><a href="https://www.nanshan.tech/static/api/license/apply.html" class="sub-nav-item nav-item block">License申请</a></dd>
-                    <dd><a href="https://www.nanshan.tech/static/api/license/check.html" class="sub-nav-item nav-item block">License校验</a></dd>
-                </details>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11">
+        <title>API 文档 | 南山智慧谷</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="shortcut icon" type="image/x-icon" href="https://www.nanshan.tech/img/favicon.ico" media="screen">
+        <link href="https://www.nanshan.tech/css/api.min.css" rel="stylesheet">
+        <script src="https://www.nanshan.tech/js/api.min.js"></script>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?934da8eb244b83b3fd9acae7b496346d";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body>
+    <div id="app">
+        <div class="container unlimiter">
+            <div class="fixed-top fixed-right space-left24">
+                <div class="fill-dark col6 pin-right"></div>
             </div>
-        </div>
+            <div class="space-top5 scroll-styled overflow-auto pad1 width24 sidebar fixed-left fill-light light" id="menu">
+                <div class="pad0x small">
+                    <details open="">
+                        <summary>
+                            <dt class="space-top1 nav-section-name">API 文档简介</dt>
+                        </summary>
+                        <dd><a href="https://www.nanshan.tech/static/api/index.html" class="sub-nav-item nav-item block nav-item--selected">API 文档简介</a></dd>
+                    </details>
+                    <details>
+                        <summary><dt class="space-top1 nav-section-name">服务授权</dt></summary>
+                        <dd><a href="https://www.nanshan.tech/static/api/license/apply.html" class="sub-nav-item nav-item block">License申请</a></dd>
+                        <dd><a href="https://www.nanshan.tech/static/api/license/check.html" class="sub-nav-item nav-item block">License校验</a></dd>
+                    </details>
+                </div>
+            </div>
 
-        <div class="space-left24">
-            <div>
-                <div class="clearfix">
-                    <div class="section contain clearfix">
-                        <div class="space-bottom8 col6 pad2x prose clip left-content">
-                            <h2>API 文档简介</h2>
-                            <p>所有接口请求地址都是可预期的以及面向资源的。使用规范的 HTTP 响应代码来表示请求结果的正确或错误信息。使用 HTTP
-                                内置的特性，如 HTTP Authentication 和 HTTP 请求方法让接口易于理解。所有的 API 请求都会以规范友好的 JSON
-                                对象格式返回（包括错误信息）。
-                            </p>
-                        </div>
-                        <div class="space-bottom4 col6 pad2 prose clip fill-dark space-top5 right-content dark">
-                            <h4>官方 SDK</h4>
-                            <blockquote>
-                                <p>提供JAVA平台的 <code>官方服务端和客户端 SDK</code>。</p>
-                            </blockquote>
-                            <h4>定义</h4>
-                            <div class="endpoint dark fill-blue round">
-                                <div class="round-left pad0y pad1x fill-lighten0 code small endpoint-method">GET</div>
-                                <div class="pad0 code small endpoint-url">https://api.nanshan.tech</div>
+            <div class="space-left24">
+                <div>
+                    <div class="clearfix">
+                        <div class="section contain clearfix">
+                            <div class="space-bottom8 col6 pad2x prose clip left-content">
+                                <h2>API 文档简介</h2>
+                                <p>所有接口请求地址都是可预期的以及面向资源的。使用规范的 HTTP 响应代码来表示请求结果的正确或错误信息。使用 HTTP
+                                    内置的特性，如 HTTP Authentication 和 HTTP 请求方法让接口易于理解。所有的 API 请求都会以规范友好的 JSON
+                                    对象格式返回（包括错误信息）。
+                                </p>
+                            </div>
+                            <div class="space-bottom4 col6 pad2 prose clip fill-dark space-top5 right-content dark">
+                                <h4>官方 SDK</h4>
+                                <blockquote>
+                                    <p>提供JAVA平台的 <code>官方服务端和客户端 SDK</code>。</p>
+                                </blockquote>
+                                <h4>定义</h4>
+                                <div class="endpoint dark fill-blue round">
+                                    <div class="round-left pad0y pad1x fill-lighten0 code small endpoint-method">GET</div>
+                                    <div class="pad0 code small endpoint-url">https://api.nanshan.tech</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="fixed-top space-left24">
-            <div class="events fill-blue dark bottom-shadow pad1 col6 pin-topright">
-                <div class="space-right1 small quiet inline"></div>
-                <div class="rounded-toggle inline short" id="lang">
-                    <a class="strong active" data="java">Java</a>
+            <div class="fixed-top space-left24">
+                <div class="events fill-blue dark bottom-shadow pad1 col6 pin-topright">
+                    <div class="space-right1 small quiet inline"></div>
+                    <div class="rounded-toggle inline short" id="lang">
+                        <a class="strong active" data="java">Java</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="fill-light fixed-top header pad0 width24">
-            <a href="https://www.nanshan.tech/" class="logo">API</a>
+            <div class="fill-light fixed-top header pad0 width24">
+                <a href="https://www.nanshan.tech/" class="logo">API</a>
+            </div>
         </div>
     </div>
-</div>
-</body>
+    </body>
 </html>
